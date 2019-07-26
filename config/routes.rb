@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   	namespace 'v1' do
   		resources :arts
   		resources :music
-  		resources :tech_project
+  		resources :science
   	end
   end
 end
